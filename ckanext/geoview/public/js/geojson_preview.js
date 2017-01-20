@@ -37,6 +37,7 @@ ckan.module('geojsonpreview', function (jQuery, _) {
       // urn:ogc:def:crs:OGC::CRS84, but proj4s uses a different name
       // for it. See https://github.com/ckan/ckanext-geoview/issues/51
       proj4.defs['OGC:CRS84'] = proj4.defs['EPSG:4326'];
+      proj4.defs('EPSG:3044', '+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs');
     },
 
     showError: function (jqXHR, textStatus, errorThrown) {
