@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/ViderumGlobal/ckanext-geoview.svg?branch=master
+    :target: https://travis-ci.org/ViderumGlobal/ckanext-geoview
+
 ======================================================
 ckanext-geoview - Geospatial viewer for CKAN resources
 ======================================================
@@ -220,7 +223,7 @@ For WMS and WFS views, the URL must be specified carefully to get the desired re
 
 https://neo.sci.gsfc.nasa.gov/wms/wms
 
-or 
+or
 
 http://giswebservices.massgis.state.ma.us/geoserver/wfs
 
