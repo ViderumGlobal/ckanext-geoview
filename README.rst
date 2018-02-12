@@ -1,6 +1,9 @@
 .. image:: https://travis-ci.org/ViderumGlobal/ckanext-geoview.svg?branch=master
     :target: https://travis-ci.org/ViderumGlobal/ckanext-geoview
 
+.. image:: https://coveralls.io/repos/github/ViderumGlobal/ckanext-geoview/badge.svg?branch=master
+    :target: https://coveralls.io/github/ViderumGlobal/ckanext-geoview?branch=master
+
 ======================================================
 ckanext-geoview - Geospatial viewer for CKAN resources
 ======================================================
