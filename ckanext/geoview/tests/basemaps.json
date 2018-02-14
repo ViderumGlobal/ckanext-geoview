@@ -1,0 +1,16 @@
+[
+    {
+        "title": "OSM",
+        "type" : "custom",
+        "url" : "http://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution" : " Map tiles & Data by OpenStreetMap, under CC BY SA."
+    },
+    {
+        "title": "Opengeo WMS demo",
+        "type" : "wms",
+        "url" : "http://demo.opengeo.org/geoserver/ows",
+        "layer" : "ne:NE1_HR_LC_SR_W_DR",
+        "srs" : "EPSG:4326",
+        "extent" : [-180,-90,180,90]
+    }
+]
